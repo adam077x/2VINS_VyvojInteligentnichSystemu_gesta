@@ -1,7 +1,5 @@
 ﻿# 2VINS_VyvojInteligentnichSystemu_gesta
 
-Tento dokument popisuje aplikaci pro bezdotykové ovládání systémové hlasitosti pomocí gest ruky snímaných webovou kamerou.
-
 ![Gesta](/img/gesta.png)
 
 ## 1. Požadavky
@@ -91,5 +89,6 @@ Během vývoje jsme narazili na několik technických komplikací, které jsou v
 ### D. Poškozené virtuální prostředí
 *   **Příčina:** Původní prostředí `.venv` se během instalací poškodilo (chybějící cesty v `sys.path`).
 *   **Řešení:** Doporučuje se vždy instalovat do čistého prostředí (v našem případě jsme použili `.env`).
+
 
 
